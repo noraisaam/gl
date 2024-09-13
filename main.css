@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 1500px; 
+    height: 1500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    border: 2px solid black;
+    padding: 10px;
+    justify-content: space-between; 
+    background-color: rgb(214, 124, 139);
+}
+
+.divm {
+    width: 30%; 
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    overflow: auto;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); 
+}
+
+.name {
+    border: 1px solid black;
+    background-color: white;
+  
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); 
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);  ;
+}
+
+.txt {
+    border: 1px solid black;
+    background-color: white;
+    padding: 5px;
+    flex-grow: 1;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); 
+
+}
